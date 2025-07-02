@@ -52,6 +52,9 @@ Prerequisites:
 ![image](https://github.com/user-attachments/assets/c316eb32-7814-42d9-ad2c-e6f62c79fdbf)
 
 ##  2. Frontend Setup (Flutter App)
+for dependencies have : http,provider,rxdart
+![image](https://github.com/user-attachments/assets/686cc71f-12d7-4e8b-93a4-c065bd976976)
+
   1.  Navigate to the frontend directory
     - command : cd frontend
   2.  Install Flutter dependencies:
