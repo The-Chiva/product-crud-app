@@ -60,11 +60,11 @@ for dependencies have : http,provider,rxdart
   2.  Install Flutter dependencies:
     - command : flutter pub get
   3.  Configure API Base URL:
-    -  Open frontend/lib/providers/product_provider.dart.
-    -  Update the _baseUrl constant based on your testing environment:
-    -  For Android Emulator: static const String _baseUrl = 'http://10.0.2.2:3000/api/products';
-    -  For iOS Simulator: static const String _baseUrl = 'http://localhost:3000/api/products';
-    -  For Real Android/iOS Device: You must use your development machine's actual local IP address (e.g., http://192.168.1.100:3000/api/products). Ensure your device and computer are on the same Wi-Fi network.
+    -Open frontend/lib/providers/product_provider.dart.
+    -Update the _baseUrl constant based on your testing environment:
+    -For Android Emulator: static const String _baseUrl = 'http://10.0.2.2:3000/api/products';
+    -For iOS Simulator: static const String _baseUrl = 'http://localhost:3000/api/products';
+    -For Real Android/iOS Device: You must use your development machine's actual local IP address (e.g., http://192.168.1.100:3000/api/products). Ensure your device and computer are on the same Wi-Fi network.
   4.  Run the Flutter Application:
      -  command :flutter run
 
